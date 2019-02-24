@@ -1,0 +1,17 @@
+#######################################################################################################
+EmbedPy-1
+	Compiler instructions:  gcc -Wall EmbedPy-1.c -lpython2.7 -o EmbedPy-1
+	Execution:		./EmbedPy-1 printData printData teste
+	Return:
+				Value returuend from the function testeteste
+#######################################################################################################
+
+
+#######################################################################################################
+EmbedPy-2
+	Compiler instructions: gcc -Wall EmbedPy-2.c -I/usr/include/python2.7/ -lpython2.7 -o EmbedPy-2
+	Execution:		./EmbedPy-2 multiply multiply 2 3 
+	Return:
+				Will compute 2 times 3
+				Result of call: 6
+#######################################################################################################
